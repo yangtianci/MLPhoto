@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		722CCE7C2004C79E00EADA87 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 722CCE7B2004C79D00EADA87 /* Resnet50.mlmodel */; };
 		F4952CAD1EF8BCE4001B3FE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4952CAC1EF8BCE4001B3FE5 /* AppDelegate.m */; };
 		F4952CB01EF8BCE4001B3FE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4952CAF1EF8BCE4001B3FE5 /* ViewController.m */; };
 		F4952CB31EF8BCE4001B3FE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4952CB11EF8BCE4001B3FE5 /* Main.storyboard */; };
 		F4952CB51EF8BCE4001B3FE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4952CB41EF8BCE4001B3FE5 /* Assets.xcassets */; };
 		F4952CB81EF8BCE4001B3FE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4952CB61EF8BCE4001B3FE5 /* LaunchScreen.storyboard */; };
 		F4952CBB1EF8BCE4001B3FE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4952CBA1EF8BCE4001B3FE5 /* main.m */; };
-		F4A0E99A1EF8ECE8001FBA12 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F4A0E9991EF8ECE8001FBA12 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		722CCE7B2004C79D00EADA87 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 		F4952CA81EF8BCE4001B3FE5 /* MLPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4952CAB1EF8BCE4001B3FE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4952CAC1EF8BCE4001B3FE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,7 +29,6 @@
 		F4952CB91EF8BCE4001B3FE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4952CBA1EF8BCE4001B3FE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4A0E9981EF8C3C3001FBA12 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		F4A0E9991EF8ECE8001FBA12 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Resnet50.mlmodel; path = ../../../Documents/Resnet50.mlmodel; sourceTree = "<group>"; };
 		F4A0E99B1EF8ED40001FBA12 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -67,7 +67,7 @@
 				F4952CAC1EF8BCE4001B3FE5 /* AppDelegate.m */,
 				F4952CAE1EF8BCE4001B3FE5 /* ViewController.h */,
 				F4952CAF1EF8BCE4001B3FE5 /* ViewController.m */,
-				F4A0E9991EF8ECE8001FBA12 /* Resnet50.mlmodel */,
+				722CCE7B2004C79D00EADA87 /* Resnet50.mlmodel */,
 				F4952CB11EF8BCE4001B3FE5 /* Main.storyboard */,
 				F4952CB41EF8BCE4001B3FE5 /* Assets.xcassets */,
 				F4952CB61EF8BCE4001B3FE5 /* LaunchScreen.storyboard */,
@@ -156,7 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4A0E99A1EF8ECE8001FBA12 /* Resnet50.mlmodel in Sources */,
+				722CCE7C2004C79E00EADA87 /* Resnet50.mlmodel in Sources */,
 				F4952CB01EF8BCE4001B3FE5 /* ViewController.m in Sources */,
 				F4952CBB1EF8BCE4001B3FE5 /* main.m in Sources */,
 				F4952CAD1EF8BCE4001B3FE5 /* AppDelegate.m in Sources */,
@@ -293,10 +293,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HS48Z9SUB4;
 				INFOPLIST_FILE = MLPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wzwang.me.MLPhoto;
+				PRODUCT_BUNDLE_IDENTIFIER = wzwang.me.MLPhotogjgj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -306,10 +307,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HS48Z9SUB4;
 				INFOPLIST_FILE = MLPhoto/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = wzwang.me.MLPhoto;
+				PRODUCT_BUNDLE_IDENTIFIER = wzwang.me.MLPhotogjgj;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

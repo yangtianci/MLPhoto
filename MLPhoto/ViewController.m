@@ -68,6 +68,12 @@ didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info {
                                                               error:&error];
         if (error == nil) {
             self.photoNameLabel.text = output.classLabel;
+            
+//            NSArray *allArr = [output.classLabelProbs allKeys];
+            [output.classLabelProbs enumerateKeysAndObjectsUsingBlock:^(NSString * _Nonnull key, NSNumber * _Nonnull obj, BOOL * _Nonnull stop) {
+                NSLog(@"%@ ---> %@",key, obj);
+            }];
+            
         } else {
             NSLog(@"Error is %@", error.localizedDescription);
         }
